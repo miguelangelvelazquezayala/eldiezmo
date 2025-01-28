@@ -985,15 +985,13 @@ hr {
   .header-area .header-bottom .logo {
     padding: 25px 0;
     padding-bottom: 0;
-
   }
 }
 @media (max-width: 575px) {
   .header-area .header-bottom .logo {
     padding: 25px 0;
     padding-bottom: 0;
-    /* display: none; */
-
+    display: none;
   }
 }
 .header-area .header-bottom .main-menu ul > li:hover > ul.submenu {
