@@ -978,16 +978,22 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area .header-bottom .logo {
     padding: 25px 0;
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .header-bottom .logo {
     padding: 25px 0;
+    padding-bottom: 0;
+
   }
 }
 @media (max-width: 575px) {
   .header-area .header-bottom .logo {
     padding: 25px 0;
+    padding-bottom: 0;
+    /* display: none; */
+
   }
 }
 .header-area .header-bottom .main-menu ul > li:hover > ul.submenu {
