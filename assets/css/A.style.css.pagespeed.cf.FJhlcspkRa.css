@@ -1100,14 +1100,17 @@ hr {
   }
 }
 @media (max-width: 575px) {
-  .slider-height3 {
+  .slider-height3 { 
     height: 350px;
   }
 }
 .hero-bg1 {
-  background-image: url("../Fotos al inicio /resized/diezmo br-39.jpg");
+  background-image: url("../Fotos al inicio /diezmo\ br-39.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* O el tamaño deseado */
+  width: 100%; /* Para que ocupe el ancho completo */
 }
 .slider-area .hero-caption {
   text-align: center;
@@ -1593,9 +1596,11 @@ hr {
   display: flex;
 }
 .services-area2 .single-services2 .features-img img {
-  width: 100%;
+  width: auto;
   height: 520px;
-  margin-left: 20px;
+  display: block;
+  margin: 0 auto;
+
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .services-area2 .single-services2 .features-img img {
